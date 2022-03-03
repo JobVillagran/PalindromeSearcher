@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wp1828969.png");
+    font-family: 'Rubik', sans-serif;
+}
+.container {
+    margin: auto;
+    width: 40%;
+    padding: 70px 0;
+}
+.content-box {
+    background-color: #fff;
+    border-radius: 7px;
+    height: 115px;
+    padding: 20px 0;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255); /* width and color */
+}
+label {
+    font-weight: 600;
+}
+#myButton , #check {
+    color: white;
+    font-weight: 200;
+    width: 40%;
+    height: 1.5rem;
+    font-size: 10px;
+    background-color: black;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+}
+#myButton:hover, #check:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+p {
+    color: rgb(128, 128, 128);
+    font-weight: 100;
+    font-size: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
